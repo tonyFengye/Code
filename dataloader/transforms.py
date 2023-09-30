@@ -1,5 +1,3 @@
-# @Time     : 2022/3/20 14:34
-# @Author   : Chen nengzhen
 # @FileName : transforms.py
 # @Software : PyCharm
 from __future__ import division
