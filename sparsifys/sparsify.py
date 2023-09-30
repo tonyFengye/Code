@@ -1,5 +1,3 @@
-# @Time     : 2022/4/15 20:54
-# @Author   : Chen nengzhen
 # @FileName : sparsifys.py
 # @Software : PyCharm
 import argparse
