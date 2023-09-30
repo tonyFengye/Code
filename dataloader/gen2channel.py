@@ -1,5 +1,3 @@
-# @Time     : 2022/4/15 16:35
-# @Author   : Chen nengzhen
 # @FileName : gen2channel.py
 # @Software : PyCharm
 import os
