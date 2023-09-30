@@ -12,4 +12,32 @@ This is the Pytorch implementation of our work on depth completion.
 
 ## Dataset
 [KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion)
+Prepare the dataset according to the datalists (*.txt in datasets)
+```
+datasets
+|----kitti 
+    |----depth_selection 
+        |----val_selection_cropped
+            |----...
+        |----test_depth_completion_anonymous   
+            |----...     
+    |----rgb     
+        |----2011_09_26
+        |----...  
+    |----train  
+        |----2011_09_26_drive_0001_sync
+        |----...   
+    |----val   
+        |----2011_09_26_drive_0002_sync
+        |----...
+```
+[CARLA](https://github.com/carla-simulator/carla)
 
+## Training
+python train_prediction.py
+
+## Visualization
+python visualize.py
+
+## Contact
+oak-chen@mail.nwpu.edu.cn
