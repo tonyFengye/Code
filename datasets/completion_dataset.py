@@ -1,5 +1,3 @@
-# @Time     : 2022/4/15 20:50
-# @Author   : Chen nengzhen
 # @FileName : completion_dataset.py
 # @Software : PyCharm
 from __future__ import absolute_import, division, print_function
