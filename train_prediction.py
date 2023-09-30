@@ -1,5 +1,3 @@
-# @Time     : 2022/3/22 14:50
-# @Author   : Chen nengzhen
 # @FileName : train_prediction.py
 # @Software : PyCharm
 import glob
