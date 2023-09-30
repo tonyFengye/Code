@@ -1,5 +1,3 @@
-# @Time     : 2021/12/11 21:08
-# @Author   : Chen nengzhen
 # @FileName : visualize.py
 # @Software : PyCharm
 import argparse
@@ -75,11 +73,6 @@ for index, item in enumerate(dataloader):
     # rgb_branch_out = F.interpolate(rgb_branch_out, [352, 1216], mode="bilinear", align_corners=False)
     # depth_branch_out = F.interpolate(depth_branch_out,  [352, 1216], mode="bilinear", align_corners=False)
     fuse_branch_out, rgb_branch_out, depth_branch_out = fuse_branch_out[0], rgb_branch_out[0], depth_branch_out[0]
-    print("           max                  min                    median                             mean")
-    print("fuse:  ", fuse_branch_out.max().data, fuse_branch_out.min().data, fuse_branch_out.median().data, fuse_branch_out.mean().data)
-    print("rgb:   ", rgb_branch_out.max().data, rgb_branch_out.min().data, rgb_branch_out.median().data, rgb_branch_out.mean().data)
-    print("depth: ", depth_branch_out.max().data, depth_branch_out.min().data, depth_branch_out.median().data, depth_branch_out.mean().data)
-    print("*********************************************************************************************************")
 
     # saving colormapped depth images
     rgb_branch_out = np.squeeze(rgb_branch_out.data.cpu().numpy())
