@@ -1,5 +1,3 @@
-# @Time     : 2022/4/14 20:41
-# @Author   : Chen nengzhen
 # @FileName : options.py
 # @Software : PyCharm
 
