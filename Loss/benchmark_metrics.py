@@ -1,5 +1,3 @@
-# @Time     : 2022/4/14 19:28
-# @Author   : Chen nengzhen
 # @FileName : benchmark_metrics.py
 # @Software : PyCharm
 import math
