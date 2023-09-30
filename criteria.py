@@ -1,5 +1,3 @@
-# @Time     : 2022/4/14 20:40
-# @Author   : Chen nengzhen
 # @FileName : criteria.py
 # @Software : PyCharm
 import torch
