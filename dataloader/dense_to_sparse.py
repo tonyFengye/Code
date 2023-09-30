@@ -1,5 +1,3 @@
-# @Time     : 2022/4/16 15:04
-# @Author   : Chen nengzhen
 # @FileName : dense_to_sparse.py
 # @Software : PyCharm
 import numpy as np
