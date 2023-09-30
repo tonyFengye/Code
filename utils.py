@@ -1,5 +1,3 @@
-# @Time     : 2022/4/14 20:41
-# @Author   : Chen nengzhen
 # @FileName : utils.py
 # @Software : PyCharm
 import errno
