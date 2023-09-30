@@ -1,5 +1,3 @@
-# @Time     : 2022/4/14 20:41
-# @Author   : Chen nengzhen
 # @FileName : kitti_utils.py
 # @Software : PyCharm
 from __future__ import absolute_import, division, print_function
